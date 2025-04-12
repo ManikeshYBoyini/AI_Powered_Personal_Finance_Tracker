@@ -1,0 +1,93 @@
+######################################
+#          BACKEND (.NET)           #
+######################################
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+artifacts/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Visual Studio cache/options directory
+.vscode/
+.vshistory/
+*.code-workspace
+
+# ASP.NET
+wwwroot/
+ScaffoldingReadMe.txt
+
+# Others
+*.pdb
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+*.Publish.xml
+*.publishproj
+*.pubxml
+*.snupkg
+*.nupkg
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+**/packages/*
+!**/packages/build/
+
+######################################
+#        FRONTEND (Angular)         #
+######################################
+
+# Angular build output
+finance-tracker-ui/dist/
+finance-tracker-ui/.angular/
+finance-tracker-ui/.angular-cache/
+finance-tracker-ui/.output/
+finance-tracker-ui/.tmp/
+finance-tracker-ui/tmp/
+finance-tracker-ui/.sass-cache/
+finance-tracker-ui/coverage/
+
+# Node modules
+finance-tracker-ui/node_modules/
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor folders
+finance-tracker-ui/.vscode/
+finance-tracker-ui/.idea/
+finance-tracker-ui/.DS_Store
+
+# Environment files
+finance-tracker-ui/.env
+finance-tracker-ui/.env.*.local
+
+######################################
+#           OS/General              #
+######################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.swp
